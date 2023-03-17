@@ -1,13 +1,42 @@
+*{
+    padding: 0;
+    margin: 10;
+    font-family: 'Times New Roman', Times, serif;
 
-h1{
-    color: rgb(247, 247, 247);
-}
-p{
-    color: rgb(238, 231, 231);
 }
 body{
-    color: blue;
+    background: url('Image/Bratva\'s\ Mafia.jpg');
+    background-size: cover ;
+
 }
-body{
-    background-color: rgb(0, 0, 0);
+.login_from{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: rgb(229, 229, 236);
+}
+.login_from h1{
+font-size: 50px;
+text-align: center;
+text-transform: uppercase;
+margin: 50px;
+}
+.login_from p{
+    font-size: 25px;
+    margin: 15px 0;
+}
+.login_from input{
+    font-size: 17px;
+    width: 100%;
+    padding: 10px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.login_from button{
+     font-size: 20px;
+     width: 30%;
+     color: red;
 }
